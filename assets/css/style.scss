@@ -1,0 +1,57 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+#downloads {
+  display: none; 
+}
+
+header h1:before {
+  content: "";
+}
+
+header {
+  border-bottom: none;
+  margin: 0 0 0 0;
+  background-image: url("/assets/images/01.png"), url("/assets/images/03.jpg");
+  background-size: 15%, 100%;
+  background-repeat: no-repeat, repeat;
+}
+
+#content-wrapper {
+  background-image: url("/assets/images/03.jpg");
+  background-size: 40%;
+}
+
+header h1 {
+  margin: 0 0 0 0;
+  width: 100%;
+  font-size: 54px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  color: #329961;
+}
+
+#main-content h1{
+ color: #e20909;
+ text-align: center;
+}
+
+#main-content p{
+  font-size: 20px;
+}
+
+header a.button {
+  display: none;
+}
+
+#sidebar {
+  display: none;
+}
+
+#main-content {
+  width: 100%;
+}
+
